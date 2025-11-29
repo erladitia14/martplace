@@ -1,3 +1,4 @@
+import Navbar from "../components/navbar";
 export default function ProductPage({
   params
 }: {
@@ -28,6 +29,8 @@ export default function ProductPage({
   };
 
   return (
+    <>
+    <Navbar />
     <div className="container mx-auto px-4 py-8">
       <div className="grid md:grid-cols-2 gap-8">
         {/* Product Images */}
@@ -101,6 +104,6 @@ export default function ProductPage({
           </div>
         </div>
       </div>
-    </div>
+    </div> </>
   );
 }
