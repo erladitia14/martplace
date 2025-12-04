@@ -1,4 +1,3 @@
-import Navbar from './components/navbar';
 import Footer from './components/footer';
 import Cards from './components/cards';
 import Landing from './components/landing';
@@ -36,7 +35,6 @@ export default function Home() {
 
   return (
     <main>
-      <Navbar />
       <Landing />
       
       <div className="container mx-auto px-4 py-8">
